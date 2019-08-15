@@ -1,0 +1,63 @@
+/* ----------------------------------------------   
+   Danneo CMS Default Template © 2005 Danneo Team   
+   ---------------------------------------------- */
+
+body                          { margin: 10px; padding: 10px; background-color: #fff }
+table,td,div                  { color: #000; font: normal 12px/14px Arial, sans-serif } 
+img                           { border: 0 }
+
+a:link, a:visited  	      { color: #748fb3; text-decoration: none }
+a:hover  		      { color: #4d698d; text-decoration: underline }
+
+a.pages:link, a.pages:visited { padding: .1em .4em; background-color: #f3f8fc }
+a.pages:hover  		      { background-color: #ebf3fa; text-decoration: none; color: #32455c }
+
+/* Images */
+.redfont                      { color: #8d4d50 }
+
+.tableod                      { padding: 20px 25px; text-align: center }
+.tableod #img                 { padding: .3em; border: solid 10px #eee }
+.tableod #imgtitle            { padding: 3em; font-size: 1.2em; color: #8d4d50 }
+.tablein                      { padding: 5px; text-align: center; color: #5d93d9 }
+.tablein strong               { color: #444 }
+
+.info                         { border: none; width: 100%; }
+.info .head td                { padding: .3em 1em; border-bottom: 1px solid #8d4d50; color: #8d4d50 }
+.info td                      { padding: .3em 1em; border-bottom: 1px solid #ccc; color: #68717a }
+
+.mediain                      { display: inline; padding: 3px }
+.mediaod                      { padding: .3em; border: solid 5px #eee }
+.mediait                      { padding: .3em; border: solid 5px #e89ca0 }
+
+/* Redirect */
+.redirect                     { background: #fff }
+.redirecttitle                { color: #600; background: #e89ca0; line-height: 100%; padding: .4em 1em }
+.redirecttext                 { border: .1em solid #99db84; background: #fdfefc; font-size: 1.1em; width: 50%; padding: 4em; color: #390;}
+.redirecttext img             { float: right }
+.redirecttext big             { font-size: 1.4em; color: #666; padding-left: 1em; vertical-align: middle }
+.redirecttext p a             { text-decoration: underline }
+
+/* Print */
+#print                        { padding: 15px; text-align: center }
+#print .printrow              { padding: 10px 0; margin: 0; text-align: left } 
+#print .printrow .title       { margin: 0 0 1em; text-align: justify; font: 17px/21pt Arial, Helvetica, sans-serif }
+#print .printrow .text        { margin: 0; text-align: justify; font: 14px/17pt Arial, Helvetica, sans-serif }
+#print .text .thumb img       { padding: .3em; border: solid .5em #eee } 
+#print .printline             { border: 1px dashed #ddd; padding: 15px; color: #666; font-size: 12px; text-align: center }
+#print .printline p           { padding: 2px; margin: 0 }
+
+/* float img-thumb */
+.imgleft                      { float: left; margin: .2em 1em 1em 0 }
+.imgright                     { float: right; margin: .2em 0 1em 1em }
+
+/* float */
+.fl                           { float: left }
+.fr                           { float: right }
+/* Align */
+.al                           { text-align: left }
+.ar                           { text-align: right }
+.ac                           { text-align: center }
+
+/* Hints - всплывающие подсказки */
+.hint                         { background: #e4e6e6; line-height: 1.2em; color: #333; width: auto; z-index: 1000; font-size: .7em; position: absolute; visibility: hidden; margin:0; padding: .5em .7em }
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<rss version="2.0">
+<channel>
+<title>Хорплоша.ру</title>
+<link>./</link>
+<description>Последние новости</description>
+<item>
+<title>Новый образ Хорплоши</title>
+<link>./news/a-3.html</link>
+<pubDate>Fri, 03 Dec 2010 20:29:00 +0300</pubDate>
+<description>Появился новый образ Хорплоши. 
+За понравившийся Вам образ Вы можете проголосовать на странице " Поиск образа".</description>
+</item>
+<item>
+<title>Новый образ Хорплоши</title>
+<link>./news/read/1.html</link>
+<pubDate>Sat, 04 Dec 2010 11:12:00 +0300</pubDate>
+<description>Голосуйте за новый образ Хорплоши.</description>
+</item>
+</channel>
+</rss>

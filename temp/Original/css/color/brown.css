@@ -1,0 +1,334 @@
+/* ----------------------------------------------   
+   Danneo CMS Default Template © 2005 Danneo Team   
+   ---------------------------------------------- */
+   
+* html html, body  			{ margin: 0; padding: 12px 0 10px; font-family: arial, tahoma, verdana, sans-serif; font-size: 105% }
+body  			                { background: #956b4a url(../../images/brown/bg.gif) repeat-x left top }
+html:first-child html, body  		{ font-size: 115% } /* Opera */
+
+/** Шрифты глобально **/
+table, td, div  			{ color: #4c4c4f; font-family: arial, tahoma, verdana, sans-serif; line-height: 135%; border: 0 }
+
+/** Главный контейнер **/
+#main  				        { background: #fff; text-align: left }
+#wrap                                   { background: #fff; width: 100% }
+
+/* Верх сайта */
+.top  				        { font-size: 70%; }
+.top a 				        { color: #c5dff8 }
+#topleft a 				{ background: url(../../images/logo.png) no-repeat left; width: 190px; height: 122px; display: block; text-decoration: none }
+#topleft  				{ height: 122px; width: 190px }
+#topcenter  				{ width: auto }
+#topright  				{ height: 122px; width: 14em }
+#topright div 				{ font-size: .8em; margin: 0 0 2.5em; text-align: center }
+
+/** контент **/
+#left  				        { width: 17em }
+#center  				{ width: 100% }
+#right  				{ width: 17em }
+#left, #center, #right  		{ font-size: 70%; vertical-align: top }
+#cbody  			        { margin: 0; padding: 0 1em }
+#content  				{ background: #fff; margin: 0; padding: .7em .4em 0 }
+
+/** Низ сайта **/
+#bot  				        { font-size: 70%; height: 87px; text-align: center }
+#bot a 				        { color: #343434 }
+#botleft  				{ width: 17em; font-size: .9em }
+#botcenter  				{ width: auto; line-height: 6em; font-size: .8em }
+#botright  				{ width: 17em }
+#topleft, #topcenter, #topright, 
+#botleft, #botcenter, #botright  	{ color: #6b422e }
+
+/* Заголовки глобально */
+h1                                      { font-size: 1.4em }
+h2                                      { font-size: 1.3em }
+h3                                      { font-size: 1.2em }
+h4                                      { font-size: 1.1em }
+h5                                      { font-size: 1.0em }
+
+/* Оформление на сайте (Tuning) */
+/* Оформление на сайте (Tuning) */
+#tunelink                               { float: right; margin: 0; height: 2.5em; line-height: 2.5em; padding-top: .2em }
+.tuning                                 { font-size: .6em; padding: .5em 1em; background: #ffe; border: .1em solid #f90; margin: .3em .8em 0 }
+.cookieerr                              { color: #a30; font-size: 70%; padding: 1em; background: #ffe; border: .1em solid #f90; margin: .5em .5em 0; text-align: center }
+.tuning .lin                            { width: auto; margin: 1em .5em }
+.tuning .red                            { padding: 0em 2em; background: #ae0000; border: .2em solid #ff4747; margin: .2em }
+.tuning .blue                           { padding: 0em 2em; background: #1574c3; border: .2em solid #7fbff1; margin: .2em }
+.tuning .gray                           { padding: 0em 2em; background: #8c8c8c; border: .2em solid #dadada; margin: .2em }
+.tuning .green                          { padding: 0em 2em; background: #4a965c; border: .2em solid #a5d2b0; margin: .2em } 
+.tuning .brown                          { padding: 0em 2em; background: #956a49; border: .2em solid #d1b7a3; margin: .2em }  
+.tuning .violet                         { padding: 0em 2em; background: #584a96; border: .2em solid #ada5d2; margin: .2em }  
+.tuning .turquoise                      { padding: 0em 2em; background: #499594; border: .2em solid #a3d1d1; margin: .2em }  
+.tuning .light_blue                     { padding: 0em 2em; background: #4a7596; border: .2em solid #a5bed2; margin: .2em }  
+.tuning .crimson                        { padding: 0em 2em; background: #a63f47; border: .2em solid #dba0a5; margin: .2em }   
+.tuning .dark_green                     { padding: 0em 2em; background: #1d5339; border: .2em solid #4dbf87; margin: .2em }  
+.tuning .magenta                        { padding: 0em 2em; background: #954a7e; border: .2em solid #d2a5c4; margin: .2em }    
+.tuning .olive                          { padding: 0em 2em; background: #49511d; border: .2em solid #abbe4c; margin: .2em }
+
+.tuning .wid                            { font-size: .9em; color: #000; letter-spacing: .2em; background: #eee; border: .3em solid #ccc; margin: .5em; text-decoration: none }
+.tuning #b                              { padding: 0em 12em }
+.tuning #s                              { padding: 0em 8em }
+.tuning #m                              { padding: 0em 4em }
+
+/* Графика шаблона */
+.temptl                                 { background: url(../../images/brown/lt.gif) repeat-y left top; width: 26px }
+.temptr                                 { background: url(../../images/brown/rt.gif) repeat-y left top; width: 26px }
+.tempbl                                 { background: url(../../images/brown/lb.gif) repeat-y left top; width: 26px; height: 87px }
+.tempbr                                 { background: url(../../images/brown/rb.gif) repeat-y left top; width: 26px; height: 87px }
+.templ                                  { background: url(../../images/brown/l.gif) repeat-y left top; width: 7px }
+.tempr                                  { background: url(../../images/brown/r.gif) repeat-y right top; width: 7px }
+.tempt                                  { background: url(../../images/brown/ct.gif) repeat-x left top }
+.tempb                                  { background: url(../../images/brown/cb.gif) repeat-x left bottom }
+
+/** Ссылки **/
+a:link, a:visited  			{ color: #cc9666; text-decoration: none }
+a:hover  				{ color: #6b492e; text-decoration: none }
+a.cat:link, a.cat:visited               { color: #6b492e }
+a.cat:hover                             { color: #6b492e; text-decoration: underline }
+a.blockmenu:link, a.blockmenu:visited  	{ color: #6b4a2e; background: url(../../images/arrow.gif) no-repeat left center; display: block; border-top: .1em solid #f4ede6; line-height: 170%; padding-left: 1.8em }
+a.blockmenu:hover  			{ color: #7a4511; background: #f4ede6 url(../../images/arrow_over.gif) no-repeat left center; text-decoration: none }
+a.linkbutton    			{}
+a.last     				{ color: #649bb5 }
+a.load:link, a.load:visited  		{ border: 3px double #d8cac3; color: #6b422e; background: #efe7e0 url(../../images/brown/but.gif) center; padding: .1em 1em; text-decoration: none }
+a.load:hover  		                { color: #000; text-decoration: none }
+a.jump:link, a.load:visited,
+a.jump:hover  		                { border: 3px double #d8cac3; color: #6b422e; background: #efe7e0 url(../../images/brown/but.gif) center; padding: 0 1em; text-decoration: none }
+
+/** Блоки **/
+.lblock, .rblock                        { width: 15em; background: #fcfaf8 } 
+.tblock, .bblock  			{ width: 100%; margin: 0 0 1em; border-bottom: 1px dashed #ccc }
+.lbtitle, .rbtitle, 
+.tbtitle, .bbtitle, .redbtitle          { text-transform: uppercase; font-weight: bold; font-size: 80%; line-height: 145%; padding: .5em 1em  .4em 1em } 
+.lbtitle, .rbtitle                      { background: #efe7e0 url(../../images/brown/tfbg.gif) center; color: #402814 } 
+.tbtitle, .bbtitle                      { background: #efe7e0 url(../../images/brown/tfbg.gif) center; color: #402814 } 
+.redbtitle  		        	{ background: #f8dbdb url(../../images/brown/tfbg_red.gif) center; color: #600 }
+.redblock                               { width: 15em; border-top: .1em solid #fff; background: #fefafa } 
+.btext  			        { border-top: .1em solid #fff; color: #4e4e4e; padding: 1em .8em } 
+.btext a 			        { color: #9c7669; vertical-align: middle } 
+.btext a:hover 			        { text-decoration: underline } 
+.btext big			        { color: #9c7669; font-size: 1.5em; margin-right: .5em; vertical-align: middle }
+.cbtext  			        { padding: .5em 1.1em; margin: 0 0 1em }
+#bmtext  			        { border-top: .1em solid #fff; padding: .1em 0 }
+
+/** оглавления разделов **/
+.sitetitle  				{ background: #fff; font-size: 1.4em; margin: 0 0 .5em; }
+.sitetitle .cont  			{ color: #7a4511; line-height: 100%; padding: .3em 0 }
+.sitetitle .ins  			{ color: #7a4511; background: #eaebec; line-height: 100%; padding: .3em 1em }
+.sitetitle a:link, .sitetitle a:visited { color: #7a4511; text-decoration: none }
+.sitetitle a:hover  			{ color: #7a4511; text-decoration: underline }
+
+/* Верхнее меню */
+#topmenu     			        { font-size: 60%; background: #efe7e0 url(../../images/brown/tfbg.gif) center; padding: 0 .3em; margin: 0 .7em; height: 2.5em; line-height: 2.5em }
+#topmenu a:link, #topmenu a:visited  	{ text-transform: uppercase; display: block; float: left; padding: 0 .8em; color: #2D1C0E; line-height: 2.5em  }
+#topmenu a:hover  			{ text-decoration: underline; color: #2D1C0E; line-height: 2.5em }
+#topmenu a.tune:link, a.tune:hover      { font-size: 1.1em; line-height: 2.1em; background: none; text-transform: none; text-decoration: none }
+#topmenu a.tune:visited                 { line-height: 2.1em; text-transform: none } 
+
+/* Нижнее меню */
+#botmenu  			        { font-size: 70%; padding: 0 .3em; margin: .5em auto 0; text-align: center; height: 2.5em; line-height: 2.5em }
+#botmenu a:link, #botmenu a:visited  	{ padding: 0 .4em; color: #a07c67; line-height: 2.5em; text-decoration: underline }
+#botmenu a:hover  			{ color: #a07c67; line-height: 2.5em; text-decoration: none }
+#ups                                    { text-align: right; margin: .5em 12em }
+ 
+/** Формы **/
+form                                    { margin:0 }
+textarea, input, select, option  	{ font: normal .9em tahoma, arial, verdana, sans-serif; color: #956b4a; vertical-align: middle }
+textarea, input 	                { border: .1em solid #ad9580; padding: .1em .3em .2em } 
+select                        	        { font-size: 1em; padding: .1em .3em .1em }
+textarea                        	{ overflow: auto } 
+.button  				{ border: 3px double #d8cac3; color: #630; background: #efe7e0 url(../../images/brown/but.gif) center; padding: 0 .7em } 
+.oneselect                              { background: #898a8f; color: #9c7c63 }
+.form                                   { border-top: .1em solid #bbbfc5; border-bottom: .1em solid #bbbfc5; padding: 1em; text-align: center; }
+.form table                             { text-align: center; margin: 0 auto } 
+.form table td                          { font-weight: normal; color: #b1a296; padding: .2em .1em; vertical-align: top; text-align: left } 
+.form table td p                        { font-weight: normal; color: #b1a296; margin: .1em .1em 0 } 
+.form table td b                        { color: #c00 } 
+.form table td div                      { margin: 0 0 .5em } 
+.form fieldset                          { border: 1px solid #d8cac3; padding: .5em 3em .8em }
+.form legend  				{ color: #7a4511; padding: 0 .5em }
+/* Блок */
+.binput 			        { border: 1px solid #ad9580; color: #956b4a }
+.bbutton  				{ border: 3px double #d8cac3; color: #630; background: #efe7e0 url(../../images/brown/but.gif) center; padding: 0 .7em }
+
+/* Calendar */
+.calendar                               { width: 100%; font-size: 1em; border-collapse: separate; background: #fff }
+.calendar td                            { color: #47311e; background: #ece0d4; font-size: .8em; padding: .2em } 
+a.calendarlink   			{ color: #c00 }
+.calendartitle,.calendarmonth,
+.calendarempty,.calendartoday,
+.calendarallday                         {}
+
+/* Листинг страниц */
+.pages                                  { padding: 1em 1.2em; color: #B09287; font-size: .95em }
+.pagesempty                             { color: #B09287; padding: .1em .1em }
+a.pages:link, a.pages:visited  		{ padding: .1em .4em; background-color: #f3f8fc }
+a.pages:hover  				{ background-color: #75798a; text-decoration: none; color: #32455c }
+ 
+/* Блок рекомендуем */
+.siterec  				{ background: url(../../images/arrow.gif) no-repeat left center; line-height: 85%; padding: .3em 1em .3em 1.8em }
+.siterectime  				{ background: #f9f9f9; color: #68717a; float: right; font-size: 0.8em; padding: 0 .5em; margin: -0.3em 0 0 }
+
+/*** Базовый контейнер ***/
+.cont                                   { background: transparent; margin: 0 1em 0 0 }
+.conttitle                              { padding: 0; margin-top: .5em; font-size: 1em; color: #a30 }
+.conttitle h2                           { padding: .3em 0; margin: 0 0 .5em; font-size: 1.2em; font-weight: normal; color: #956b4a; border-bottom: 1px solid #ccc }
+.conttitle h3                           { padding: 0; margin: -0.5em 0 0 0; font-weight: normal; font-size: 90% }
+.conttitle span                         { background: #fff; color: #777; font-size: 85%; font-weight: normal; padding: .1em .3em }
+.conttext                               { padding: .5em 0 }
+.conttext .thumb img                    { border: .3em solid #eee; padding: .1em } 
+.continfo                               { padding: .5em .2em; margin: 0 0 1em; border-bottom: 1px dashed #B09287; text-align: right; font-size: 1em; color: #B09287; clear: both }
+.continfo img                           { vertical-align: middle }
+.continfo b                             { font-weight: normal; color: #ccc; margin: 0 .5em }
+.onlytitle                              { margin: 0 0 1.5em }
+.conttitle table td.only                { width: 100%; font-size:.9em; padding: .2em 1em .2em }
+.conttitle table td.date                { font-size: .9em; padding: .2em 0 }
+
+/** Категории **/
+.cat                                    { border: none; width: 100%; }
+.cat .head td                           { padding: .3em 1em; border-bottom: 1px solid #565040; border-right: 1px solid #565040; color: #565040; text-align:center }
+.cat td                                 { padding: .3em 1em; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; color: #68717a }
+.cat td span                            { color: #aaa; font-weight: normal }
+#catinfo                                { color: #b7baba; text-align: right; border: 0 }
+ 
+/** Доплнительная информация 
+    файлы, фото **/
+.details                                { border: none; width: 100%; }
+.details .head td                       { padding: .3em 1em; border-bottom: 1px solid #8d4d50; color: #8d4d50; text-align:center }
+.details td                             { padding: .3em 1em; border-bottom: 1px solid #ddd; color: #444a50 }
+.infone                                 { background: #fbfbfb; color: #444a50 !important }
+.inftwo                                 { background: #fff; color: #4d698d !important }
+
+/* Чередование цветов таблиц 
+в категориях */
+.newsone,.articleone,.linkone,.downone,.faqone,.photosone                      { background: #fff }
+.newstwo,.articletwo,.linktwo,.downtwo,.faqtwo,.photostwo                      { background: #fff }
+
+/** Комментарии **/
+.com                                    { border: none; width: 100% }
+.com .head td                           { padding: .3em 1em; border-bottom: 1px solid #8d4d50; color: #bc8486 }
+.com .head td big                       { color: #8d4d50; font-size: 1em }
+.com td                                 { padding: .3em 1em; vertical-align: top; border-bottom: 1px solid #ccc; color: #444a50 }
+.com td p                               { color: #68717a; margin: 0; padding: .3em 0 }
+#cominfo                                { text-align: right; border: 0 }
+
+/* Сообщения */
+.errtitle  				{ background: #fff; font-size: 1.07em }
+.errtitle .cont  			{ color: #600; background: #e89ca0; line-height: 100%; padding: .4em 1em }
+.errortxt                               { border-top: .1em solid #e89ca0; border-bottom: .1em solid #e89ca0; padding: 1em; color: #800; font-style: italic }
+.support                                { border-top: .2em solid #e89ca0; border-bottom: .2em solid #e89ca0; width: 50%; padding: 3em; color: #800; font-size: 0.85em }
+.support img                            { float: right }
+.messtitle  				{ background: #fff; font-size: 1.07em }
+.messtitle .cont  			{ color: #060; background: #99db84; line-height: 100%; padding: .4em 1em }
+.messtxt                                { border-top: .1em solid #99db84; border-bottom: .1em solid #99db84; padding: 1em; color: #000 }
+.notice                                 { color: #ca0000; background: #ffe; border: .1em dashed #fcc; padding: .5em 1em; text-align:center; font-style: italic }
+
+/* Цвета */
+.redfont                                { color: #8d4d50 }
+.red                                    { color: #c00 }
+.blue                                   { color: #0a469e } 
+.green                                  { color: #239e0a }
+.crimson                                { color: #600 }
+
+/* Map */
+.mapcont                                { background: #fff; margin: 0 5% 1em }
+.maptitle h2                            { padding: .3em 0; margin: 1.5em 1em .5em; font-size: 1.1em; font-weight: normal; color: #800; border-bottom: 1px solid #eee }
+.maptitle h2 a                          { text-decoration: underline }
+.maptitle h2 a:hover                    { text-decoration: none }
+.maptext                                { padding: 0 1.5em; color: #68717a; font-style: italic }
+.maplink                                { padding: 0 5em; margin: 0 }
+
+/* Info */
+.infotitle                              { background: url(../../images/arrow.gif) no-repeat left center; padding: 0 2em; color: #68717a }
+
+/* Poll */
+.poll                                   { text-align: center; width: 100% }  
+.poll td                                { font-weight: normal; color: #68717a; padding: .1em .1em } 
+.pollbar                                { background:#000; height: 1em } 
+.pollbarout                             { background: #f6f6f6; padding: 0; text-align: left }
+.pollbarout_block                       { padding: 0; margin: 0 .2em; background: #fff; text-align: left }
+
+/* Faq */
+.faqul                                  { margin: 0 0 3em; padding: .5em 1.9em; border-bottom: .1em solid #ccc; border-top: .1em solid #ccc }
+.faqli                                  { color: #446688; padding: .2em .5em; font-weight: normal; list-style-type: square } 
+.faqli a                                { text-decoration: underline } 
+.faqtitle                               { color: #4d698d; padding: .2em 1.8em; font-weight: normal }
+.faqtitle big                           { color: #446688; font-size: 1.7em; vertical-align: middle; padding-right: .6em } 
+.faqtext                                { color: #50743f; padding: .2em 3.5em }
+
+/* Thumb */
+.thumb                                  { margin: 1em .5em; text-align: center }
+.thumbtitle                             { color: #8d4d50; font-weight: bold }
+.thumbcet                               { padding: .3em }
+.thumbcet img                           { border: .5em solid #eee; padding: .3em }
+.thumbtext                              { color: #68717a }
+
+/**/
+.search                                 { color: #68717a; text-align: right; padding: 1em }
+
+/* Images */
+.tableod                                { padding: 5px 25px; text-align: center }
+.tableod #img                           { border: solid 10px #ccc }
+.tableod img                            { border: 1em solid #eee; padding: .3em }
+.tablein                                { padding: 5px; text-align: center; color: #68717a } 
+.tablein img                            { border: .5em solid #eee; padding: .3em }
+.mediain                                { display: inline; padding: 3px } 
+.mediaod                                { border: solid 5px #ccc }
+.mediait                                { border: solid 5px #e89ca0 }
+
+/* Rating */
+.rating                                 { background: #fff }
+.ratingrows                             { background: #fdfdfd; line-height: 2em; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: .5em; color: #8d4d50 }
+#rating                                 { float: left; margin: 0; padding: 0 5px 0 0 }
+#rating dd                              { margin: 0; padding: 0 }
+#rating ol                              { list-style: none; margin: 0; padding: 0; width: 70px; height: 14px; position: relative; background: url(../images/rates.gif) }
+#rating li                              { float: left; margin: 0; padding: 0 }
+#rating li a                            { display: block; width: 14px; height: 14px; position: absolute; text-decoration: none; z-index:3 }
+#rating li a:hover                      { left: 0; background: url(../../images/rates.gif) left center; z-index: 2 }
+#rating a.rate1                         { left: 0 }
+#rating a.rate1:hover                   { width: 14px }
+#rating a.rate2                         { left: 14px }
+#rating a.rate2:hover                   { width: 28px }
+#rating a.rate3                         { left: 28px }
+#rating a.rate3:hover                   { width: 42px }
+#rating a.rate4                         { left: 42px }
+#rating a.rate4:hover                   { width: 56px }
+#rating a.rate5                         { left: 56px }
+#rating a.rate5:hover                   { width: 70px }
+#rating li.current                      { height: 14px; background: url(../../images/rates.gif) left bottom; z-index:1 }
+
+/* Float */
+.fl                                     { float: left }
+.fr                                     { float: right }
+/* Align */
+.al                                     { text-align: left }
+.ar                                     { text-align: right }
+.ac                                     { text-align: center } 
+/* Valign */
+.vt                                     { vertical-align: top }
+.vm                                     { vertical-align: middle } 
+.vb                                     { vertical-align: bottom }
+/* Float img-thumb */
+.imgleft                                { float: left; margin: .2em 1em 1em 0 }
+.imgright                               { float: right; margin: .2em 0 1em 1em }
+
+/* Line */
+.sline  				{ clear: both; font-size: .5em; height: .5em }
+.clear  				{ clear: both; height: 0 } 
+hr                                      { padding: 0; height: 0; border-bottom: .1em solid #bbbfc5 }
+
+/* Img */
+img                                     { border: 0; vertical-align: middle }
+ 
+/* Forum */
+.forum                                  { border: .1em solid #ccc; padding: .1em; background: #fff }
+.forum span                             { font-weight: bold }
+.forumtitle                             { background: #f5f5f5; color: #888; border-bottom: .1em solid #fff; padding: 1em; font-weight: bold }
+.forumtopic                             { border-top: .1em solid #ccc; padding: 1em }
+
+/* Debug */
+/* .debug                                  { overflow: hidden; background: #ffe; border: .2em solid #960; font-size: .6em; color: #960; padding: .5em 2em; margin: 1em 1%; -moz-border-radius: 1em } */
+
+/* Hints - всплывающие подсказки */
+.hint                                   { background: #efe7e0; border-left: .3em solid #ddcdbe; line-height: 1.2em; color: #3f2814; width: auto; 
+                                          z-index: 1000; font-size: .6em; position: absolute; visibility: hidden; margin:0; padding: .4em .6em .4em 1.2em }
+

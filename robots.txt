@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /base/
+Disallow: /block/
+Disallow: /cache/
+Disallow: /mod/
+Disallow: /temp/
+Disallow: /js/
+Disallow: /error/
+Disallow: /loader/
